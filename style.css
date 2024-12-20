@@ -1,0 +1,771 @@
+/* Nav Links Styling */
+/* Sticky Header */
+
+header{
+  position: sticky;
+  top:0;
+  z-index: 1;
+ 
+}
+
+.navbar-nav .nav-link {
+  font-weight: 700;
+  font-size: 18px;
+  color: #333;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  color: #00b39f;
+}
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: #00b39f;
+  transition: width 0.3s ease;
+}
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Contact Us Button */
+.btn-contact {
+  background-color: #00b39f;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+.btn-contact:hover {
+  background-color: #00897b;
+  color: #fff;
+}
+
+/* Dropdown  */
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #00b39f;
+}
+
+.hero-section {
+  background-color: #e7fff9;
+}
+.hero-section .hero-heading {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.hero-section .hero-heading span {
+  color: #ff8128;
+}
+.hero-text {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  color: #000;
+  font-family: Arvo;
+}
+.btn-hero {
+  font-family: "Montserrat Alternates", Sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #00a792;
+  border-radius: 6px;
+  padding: 16px 26px;
+  margin-right: 50px;
+}
+.btn-hero:hover {
+  background-color: #00897b;
+  color: #fff;
+}
+
+.hero-video {
+  width: 100%;
+  object-fit: cover; /* For video tag support */
+}
+
+.heading {
+  font-family: "Nunito", Sans-serif;
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+}
+.iti-text {
+  text-align: justify;
+
+  font-family: Arvo;
+  font-size: 16px;
+  line-height: 32px;
+}
+.oims {
+  background-image: url("../assets/images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ .oims .card {
+  background: #f2f5ff;
+  padding: 25px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.oims .card-body h5 {
+  font-weight: 700;
+  color: #000;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+.oims .card-text {
+  font-family: arvo;
+  margin-bottom: 20px;
+}
+.custom-img {
+  width: 50%;
+  height: auto;
+}
+.oims .card:hover{
+  border: 0.5px solid rgb(76, 76, 246);
+ 
+}
+
+.brands{
+  overflow: hidden;
+}
+
+.feacture{
+  overflow: hidden;
+}
+.lazy-slider-container{
+  overflow: hidden;
+}
+.partners-container{
+  overflow: hidden;
+}
+.Testimonials{
+  overflow: hidden;
+}
+/* slider styling */
+.logos-slider img {
+  width: 70%;
+}
+
+/* Slick arrows */
+.slick-prev,
+.slick-next {
+  font-size: 30px; /* Size of the arrows */
+  color: transparent; /* Color of the arrows */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  text-align: center;
+  line-height: 0;
+}
+
+/* right arrow */
+.slick-next:before {
+    opacity: 1;
+    font-weight: bold;
+    color: #E1EEEB;
+}
+
+/* Right arrow */
+.slick-next:before {
+  content: ">"; /* Right arrow symbol */
+  font-size: 30px; /* Increase font size for better visibility */
+}
+
+/* left arrow */
+.slick-prev:before {
+    opacity: 1;
+    font-weight: bold;
+    color: #E1EEEB;
+}
+/* left arrow */
+.slick-prev:before {
+    content: "<";/* Right arrow symbol */
+    font-size: 30px;/* Increase font size for better visibility */
+}
+
+/* Adjust positions */
+.slick-prev {
+  left: -10px; /* Position left arrow */
+}
+
+.slick-next {
+  right: -40px; /* Position right arrow */
+}
+
+/* Remove default content from slick's arrows */
+.slick-next.slick-arrow {
+  text-indent: -80px; /* Remove default text like "Previous" or "Next" */
+}
+
+.lazy-slider-container{
+    background-image: url("../assets/images/background.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+}
+
+.lazy-slider {
+    width: 70%;
+    margin: 0 auto;
+}
+.lazy-slider .slide {
+    margin-right: 20px;
+    /* Add space between images */
+}
+
+.lazy-slider .slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.lazy-slider-container {
+    padding: 10px 0;
+}
+
+
+.icon-img svg{
+    color: #00A792;
+}
+
+.icon-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.icon-description {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+/* .together .card{
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
+} */
+.together .card:hover{
+  border: 1px solid #00A792;
+
+}
+.agency{
+    background-image: url("../assets/images/background-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.process{
+    background-image: url("../assets/images/background.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+/* Target cards only within the .process section */
+.process .card {
+    border: 1px solid #ddd; /* Default border for these specific cards */
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: none;/* Removes shadow if inherited from global styles */
+    height: 100%;
+}
+
+.process .card:hover {
+    
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* Add shadow on hover */
+    transform: translateY(-5px);
+    /* Slight hover effect */
+}
+
+/* Specific adjustments for card image in the process section */
+.process .card-img img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Adjust card titles within the process section */
+.process .card-title h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.process .card-body {
+    padding: 20px;
+    font-family: arvo;
+}
+
+
+   /* Custom Styles */
+   .influencer-section {
+       display: flex;
+       justify-content: space-between;
+       padding: 40px;
+   }
+
+  
+
+  
+
+   .right-content {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+      
+       /* padding-left: 40px; */
+       /* padding: 0 20px; */
+   }
+
+   .right-content .box {
+       display: flex;
+       align-items: center;
+       border: 1px solid #00A896;
+       padding: 15px;
+       margin-bottom: 20px;
+       border-radius: 8px;
+       transition: box-shadow 0.3s;
+   }
+
+   .right-content .box:hover {
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   }
+
+   .box img {
+       width: 50px;
+       margin-right: 15px;
+   }
+
+   .box h5 {
+       font-weight: bold;
+       color: #00A896;
+   }
+
+   .box p {
+       margin-bottom: 0;
+       color: #333;
+   }
+
+   .top-influencer .box{
+        border:none;
+        transition: all 0.3s ease-in-out;
+        box-shadow: none;
+        border-radius: 0;
+   }
+   .top-influencer .box:hover{
+    border: 1px solid #00A792;
+    cursor: pointer;
+   }
+   .top-influencer .card-title{
+    font-size: 14px;
+   }
+   .instragram-influencer{
+      background-image: url("../assets/images/background-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+    .instragram-influencer .card {
+      border: none;
+      box-shadow: none;
+      background-color: transparent;
+      transition: all 0.3s ease-in-out;
+      padding: 10px;
+    }
+  
+    .instragram-influencer .box:hover {
+      background-color: #00897b;
+      cursor: pointer;
+      border-radius: 0px;    
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);  
+    }
+ .instragram-influencer .box1:hover {
+      background-color: #F5EB92;
+      cursor: pointer;
+      border-radius: 0px;
+       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+ }
+    .instragram-influencer .box2:hover {
+      background-color: #A3FFE1;
+      cursor: pointer;
+      border-radius: 0px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+ .instragram-influencer .box3:hover {
+   background-color: #FFBC7A;
+   cursor: pointer;
+   border-radius: 0px;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+ }
+  .instragram-influencer .box4:hover {
+      background-color: #E3FF8E;
+      cursor: pointer;
+      border-radius: 0px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+     .instragram-influencer .box5:hover {
+           background-color: #FFA0C6;
+           cursor: pointer;
+           border-radius: 0px;
+           box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+ .instragram-influencer .box6:hover {
+      background-color: #F3A5FF;
+      cursor: pointer;
+      border-radius: 0px;
+ }
+ .instragram-influencer .box7:hover {
+   background-color: #98FEAF;
+   cursor: pointer;
+   border-radius: 0px;
+ }
+ .instragram-influencer .box8:hover {
+   background-color: #6CFFFA;
+   cursor: pointer;
+   border-radius: 0px;
+ }
+ .instragram-influencer .box9:hover {
+   background-color: #77BAFF;
+   cursor: pointer;
+   border-radius: 0px;
+ }
+ .instragram-influencer .box10:hover {
+   background-color: #FEF0D4;
+   cursor: pointer;
+   border-radius: 0px;
+ }
+ .instragram-influencer .box11:hover {
+   background-color: #7AFFDB;
+   cursor: pointer;
+   border-radius: 0px;
+ }
+ .Testimonials{
+  padding-top: 100px;
+    background-color: #f8f9fa;
+ }
+
+ .blog-section {
+    text-align: center;
+     padding: 50px 0;
+      }
+ 
+        
+ .blog-card {
+   border: none;
+   transition: transform 0.3s ease-in-out;
+                 }
+        
+ .blog-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+        
+ .blog-card img {
+  border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+height: 200px;
+   object-fit: cover;
+    }
+  .blog-card h5 {
+    font-weight: bold;
+    font-size: 1.25rem;
+   }
+        
+.blog-card a {
+ color: #FF6F00;
+ font-weight: bold;
+ text-decoration: none;
+ }
+        
+ /* .pagination a {
+    color: #FF6F00;
+  } */
+
+
+.Testimonials .single-item{
+box-shadow: -4px 31px 0px -18px rgba(211, 211, 211, 0.75);
+}
+
+.Testimonials .card{
+  background-color: white;
+  border-radius: 0;
+  border: none;
+}
+
+.Testimonials .card-body .card-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  font-size: 24px;
+  color: #121212;
+}
+
+.Testimonials .card-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  color: #4E4E4E;
+
+}
+
+
+
+
+
+
+
+
+
+      .faq-section {
+          padding: 50px 0;
+          background-color: #f8f9fa;
+        }
+      
+        .faq-item {
+          background-color: #ffffff;
+          border: 1px solid #ddd;
+          margin-bottom: 10px;
+          border-radius: 5px;
+          overflow: hidden;
+          transition: all 0.3s ease-in-out;
+        }
+      
+        .faq-item .faq-header {
+          padding: 15px 20px;
+          font-weight: bold;
+          font-size: 1rem;
+          cursor: pointer;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          color: #000;
+        }
+      
+        .faq-item .faq-header:hover {
+          background-color: #f0f0f0;
+        }
+      
+        .faq-item .faq-body {
+          padding: 15px 20px;
+          display: none;
+          color: #333;
+        }
+      
+        /* Active State */
+        .faq-item.active .faq-body {
+          display: block;
+        }
+      
+        .faq-item.active .faq-header i {
+          transform: rotate(180deg);
+        }
+      
+        .faq-header i {
+          transition: transform 0.3s ease;
+        }
+      
+        /* Highlighted Questions */
+        .faq-item.active .faq-header {
+          color: #00897b;
+        }
+.influencer {
+  background-color: #f8f9fa;
+}
+
+.text-orange {
+  color: #ff6600;
+}
+
+.influencer img {
+  width: 100%;
+  max-width: 80px;
+}
+
+.influencer h2 {
+  font-size: 1.5rem;
+}
+
+.influencer p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+        .custom-section {
+          margin: 50px 0;
+          display: flex;
+          align-items: center;
+        }
+    
+       
+    
+        .custom-section h4 {
+          color: #f97316;
+          /* Orange heading color */
+          font-weight: bold;
+          margin-bottom: 20px;
+          font-family: "Montserrat",
+            sans-serif;
+        }
+
+
+
+
+    .contact{
+      background-color: transparent;
+        background-image: linear-gradient(180deg, #e0f8ff 0%, #fff0e5 100%)
+    }
+     .contact-info p {
+       font-size: 1.1rem;
+     }
+  
+     .contact-info ul {
+       padding: 0;
+       list-style: none;
+     }
+
+            .contact .box {
+               display: flex;
+               align-items: center;
+               border-radius: 8px;
+               padding: 15px;
+               transition: box-shadow 0.3s ease;
+             }
+      
+            .contact .box:hover {
+               box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+             }
+      
+            /* .contact .icon-box {
+               background-color: #f97316;
+             
+               color: white;
+               border-radius: 50%;
+               width: 50px;
+               height: 50px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               font-size: 20px;
+               margin-right: 15px;
+             } */
+      
+            .contact .content-box h5 {
+               margin: 0;
+               font-size: 16px;
+               font-weight: bold;
+               color: black;
+             }
+      
+   .contact .content-box p {
+    margin: 0;
+   color: #555;
+  font-size: 14px;
+ }
+.contact .icon-box .bi{
+  color: #00A893;
+}
+  
+     .form-label {
+       font-weight: bold;
+     }
+  
+     .form-control {
+       border-radius: 0.25rem;
+     }
+  
+     button[type="submit"] {
+       background-color: #ff6b4a;
+       color: white;
+       font-weight: bold;
+       border: none;
+       padding: 0.5rem 1rem;
+       border-radius: 0.25rem;
+     }
+  
+     button[type="submit"]:hover {
+       background-color: #e15c3d;
+     }
+    
+        
+ .footer {
+       background-image: url('../assets/images/bg-footer.png');
+      background-repeat: no-repeat;
+      background-position: center;
+       padding: 40px 0;
+}
+  
+.footer .logo img {
+       max-width: 100%;
+}
+  
+.footer h5 {
+       font-weight: bold;
+       margin-bottom: 20px;
+       font-family:"Montserrat",sans-serif ;
+       font-size: 30px;
+ }
+  
+
+.footer .span{
+
+      color: #ff8128;
+
+}
+.footer a {
+      text-align: justify;
+      color: #333;
+        font-family: Arvo;
+        font-size: 16px;
+        line-height: 32px;
+       text-decoration: none;
+ }
+  
+ .footer a:hover {
+       text-decoration: underline;
+       color: #13AE9A;
+ }
+  
+.footer .social-icons a {
+       margin: 0 10px;
+       color: #ff6f00;
+       font-size: 1.5rem;
+}
+
+.footer-bottom {
+       text-align: center;
+       padding-top: 20px;  
+       border-top: 1px solid #ddd;
+       color: #555;
+ }
+    @media (max-width: 768px) {
+      header {
+        position: static;
+        box-shadow: none;
+        /* Optional: Remove shadow for normal view */
+      }
+      .navbar .btn-contact{
+        display: none;
+      }
+    }
